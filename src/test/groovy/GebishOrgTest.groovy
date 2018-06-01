@@ -3,6 +3,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 
+//Junit testing
+
 @RunWith(JUnit4)
 class GebishOrgTest extends GebReportingTest {
 
@@ -10,12 +12,12 @@ class GebishOrgTest extends GebReportingTest {
     void canGetToTheCurrentBookOfGeb() {
         to GebishOrgHomePage
 
-        manualsMenu.open()
+        menu.click()
 
         //first link is for the current manual
-        assert manualsMenu.links[0].text().startsWith("current")
+        assert links[0].text().startsWith("current")
 
-        manualsMenu.links[0].click()
+        links[0].click()
 
         at TheBookOfGebPage
     }

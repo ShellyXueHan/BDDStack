@@ -48,28 +48,3 @@ sourceSets {
    }
 }
 ```
-## Questions and issues
-
-Please ask questions on our [Slack Channel][slack_channel] and raise issues in [BDDStack issue tracker][issue_tracker].
-
-## Useful Linkss
-
-<http://www.gebish.org/manual/current>
-
-<http://spockframework.org/>
-
-<http://groovy-lang.org/>
-
-<https://inviqa.com/blog/bdd-guide>
-
-<https://github.com/SeleniumHQ/selenium/wiki>
-
-SourceSets: 
-* <https://docs.gradle.org/current/userguide/java_plugin.html#sec:working_with_java_source_sets>
-* <https://dzone.com/articles/integrating-gatling-into-a-gradle-build-understand>
-
-
-[navunit]: https://github.com/bcgov/navUnit
-[dockerfile]: https://github.com/BCDevOps/openshift-tools/blob/master/provisioning/jenkins-slaves/bddstack/Dockerfile
-[issue_tracker]: https://github.com/rstens/BDDStack/issues
-[slack_channel]: https://devopspathfinder.slack.com/messages/C7J72K1MG
